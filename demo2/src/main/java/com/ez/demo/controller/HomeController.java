@@ -16,6 +16,7 @@ public class HomeController {
 	@RequestMapping("/pd/pdList")
 	public String pdList() { 
 		System.out.println("pdList page!");
+		System.out.println("test");
 		return "pd/pdList";
 	}
 
