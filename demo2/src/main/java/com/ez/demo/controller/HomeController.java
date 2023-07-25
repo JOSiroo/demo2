@@ -11,6 +11,15 @@ public class HomeController {
       System.out.println("담당자");
         return "index";
     }
+
+	
+	@RequestMapping("/pd/pdList")
+	public String pdList() { 
+		System.out.println("pdList page!");
+		return "pd/pdList";
+	}
+
+
    
    @RequestMapping("/test1")
     public String test1() { 
@@ -18,3 +27,4 @@ public class HomeController {
         return "test1";
     }
 }
+
